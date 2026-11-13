@@ -11,6 +11,8 @@ project(peripheral_lbs)
 # NORDIC SDK APP START
 target_sources(app PRIVATE
   src/main.c
+  src/force_sensor.c
+  src/force_service.c
 )
 
 # NORDIC SDK APP END
